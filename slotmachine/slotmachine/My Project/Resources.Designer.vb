@@ -39,7 +39,7 @@ Namespace My.Resources
         Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("Dexs.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("slotmachine.Resources", GetType(Resources).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property knicks() As System.Drawing.Bitmap
+        Friend ReadOnly Property dime() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("knicks", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("dime", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property lakers() As System.Drawing.Bitmap
+        Friend ReadOnly Property dollars() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("lakers", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("dollars", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property nickels() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nickels", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property quarters() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("quarters", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -61,9 +61,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(287, 61)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(88, 20)
+        Me.Label1.Size = New System.Drawing.Size(51, 20)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Best players"
+        Me.Label1.Text = "Teams"
         '
         'Label2
         '
@@ -79,9 +79,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(617, 61)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 20)
+        Me.Label3.Size = New System.Drawing.Size(51, 20)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Last title"
+        Me.Label3.Text = "Title #"
         '
         'Label4
         '
@@ -132,7 +132,7 @@ Partial Class Form1
         '
         'field1
         '
-        Me.field1.Location = New System.Drawing.Point(273, 97)
+        Me.field1.Location = New System.Drawing.Point(277, 97)
         Me.field1.Name = "field1"
         Me.field1.Size = New System.Drawing.Size(125, 27)
         Me.field1.TabIndex = 7
