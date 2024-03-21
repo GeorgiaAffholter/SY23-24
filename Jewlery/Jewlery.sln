@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Jewlery", "Jewlery\Jewlery.vbproj", "{4EDA569C-A416-4FCA-BA5D-65038861E8FA}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Jewelry", "Jewlery\Jewelry.vbproj", "{4EDA569C-A416-4FCA-BA5D-65038861E8FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
