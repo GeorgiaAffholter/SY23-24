@@ -86,6 +86,12 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -124,6 +130,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CowBoy Necklace.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cowboy silver.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross necklace.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross silver.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
