@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="earrings gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\earrings gold.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross silver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CowBoy Necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CowBoy Necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hoopsilver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hoopsilver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="silverearrings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\silverearrings.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cowboy silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cowboy silver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="goldhoop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\goldhoop.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

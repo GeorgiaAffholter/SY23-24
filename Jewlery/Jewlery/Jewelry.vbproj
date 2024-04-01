@@ -112,6 +112,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -142,6 +145,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cross silver.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silverearrings.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earrings gold.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoopsilver.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldhoop.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

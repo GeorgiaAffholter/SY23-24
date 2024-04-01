@@ -22,10 +22,6 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -36,51 +32,15 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TotalLabel = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox4
-        '
-        ' Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.earrings_gold
-        Me.PictureBox4.Location = New System.Drawing.Point(12, 311)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(156, 169)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox4.TabIndex = 4
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox1
-        '
-        'Me.PictureBox1.Image = Global.Jewlery.My.Resources.Resources.silverearrings
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 107)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(156, 169)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox3
-        '
-        ' Me.PictureBox3.Image = Global.Jewlery.My.Resources.Resources.goldhoop
-        Me.PictureBox3.Location = New System.Drawing.Point(435, 311)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(156, 169)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        ' Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.hoopsilver
-        Me.PictureBox2.Location = New System.Drawing.Point(435, 107)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(156, 169)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
         '
         'Label1
         '
@@ -88,7 +48,7 @@ Partial Class Form2
         Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 25.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(3, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(317, 53)
+        Me.Label1.Size = New System.Drawing.Size(309, 52)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Celestial Earrings"
         '
@@ -98,7 +58,7 @@ Partial Class Form2
         Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 25.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(436, 38)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(258, 53)
+        Me.Label2.Size = New System.Drawing.Size(252, 52)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Brandy Hoops"
         '
@@ -180,9 +140,49 @@ Partial Class Form2
         Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 25.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(935, 150)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(123, 53)
+        Me.Label5.Size = New System.Drawing.Size(120, 52)
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "Total:"
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.earrings_gold
+        Me.PictureBox4.Location = New System.Drawing.Point(12, 311)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(156, 169)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 4
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Jewlery.My.Resources.Resources.silverearrings
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 107)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(156, 169)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = Global.Jewlery.My.Resources.Resources.goldhoop
+        Me.PictureBox3.Location = New System.Drawing.Point(435, 311)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(156, 169)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.hoopsilver
+        Me.PictureBox2.Location = New System.Drawing.Point(435, 107)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(156, 169)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
         '
         'Form2
         '
