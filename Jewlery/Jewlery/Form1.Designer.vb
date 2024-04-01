@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(235, 66)
+        Me.Label3.Location = New System.Drawing.Point(246, 66)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(65, 24)
         Me.Label3.TabIndex = 5
@@ -94,9 +94,9 @@ Partial Class Form1
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.cross_silver
-        Me.PictureBox4.Location = New System.Drawing.Point(594, 254)
+        Me.PictureBox4.Location = New System.Drawing.Point(578, 254)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(150, 138)
+        Me.PictureBox4.Size = New System.Drawing.Size(194, 184)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 8
         Me.PictureBox4.TabStop = False
@@ -108,7 +108,7 @@ Partial Class Form1
         Me.PictureBox3.Image = Global.Jewlery.My.Resources.Resources.cross_necklace
         Me.PictureBox3.Location = New System.Drawing.Point(594, 66)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(150, 161)
+        Me.PictureBox3.Size = New System.Drawing.Size(168, 178)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 7
         Me.PictureBox3.TabStop = False
@@ -118,9 +118,9 @@ Partial Class Form1
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.Cowboy_silver
-        Me.PictureBox2.Location = New System.Drawing.Point(57, 254)
+        Me.PictureBox2.Location = New System.Drawing.Point(47, 254)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(124, 138)
+        Me.PictureBox2.Size = New System.Drawing.Size(173, 184)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
@@ -130,9 +130,9 @@ Partial Class Form1
         Me.PictureBox1.BackgroundImage = Global.Jewlery.My.Resources.Resources.CowBoy_Necklace
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(57, 66)
+        Me.PictureBox1.Location = New System.Drawing.Point(47, 62)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(139, 157)
+        Me.PictureBox1.Size = New System.Drawing.Size(173, 182)
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
@@ -150,7 +150,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(489, 66)
+        Me.Label5.Location = New System.Drawing.Point(497, 66)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 24)
         Me.Label5.TabIndex = 10
