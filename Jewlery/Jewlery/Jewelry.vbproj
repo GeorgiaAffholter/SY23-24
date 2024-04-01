@@ -146,5 +146,17 @@
   <ItemGroup>
     <None Include="Resources\cross silver.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silverearrings.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earrings gold.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoopsilver.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goldhoop.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
