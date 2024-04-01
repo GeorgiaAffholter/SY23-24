@@ -6,7 +6,7 @@ Public Class Form1
         Me.Hide()
         Dim f2 As New Form2
         f2.ShowDialog()
-        Jewlerycount.Text = f2.2Jewlerycount.Value
+        'Jewlerycount.Text = f2.2Jewlerycount.Value
         Me.Show()
     End Sub
 
