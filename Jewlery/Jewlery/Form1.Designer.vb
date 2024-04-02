@@ -37,7 +37,7 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Total = New System.Windows.Forms.TextBox()
+        Me.TotalLab = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -155,10 +155,10 @@ Partial Class Form1
         '
         Me.Button2.BackColor = System.Drawing.Color.Silver
         Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(279, 180)
+        Me.Button2.Location = New System.Drawing.Point(279, 328)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(97, 55)
+        Me.Button2.Size = New System.Drawing.Size(97, 70)
         Me.Button2.TabIndex = 11
         Me.Button2.Text = "Silver"
         Me.Button2.UseVisualStyleBackColor = False
@@ -167,7 +167,7 @@ Partial Class Form1
         '
         Me.Button3.BackColor = System.Drawing.Color.Yellow
         Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(279, 347)
+        Me.Button3.Location = New System.Drawing.Point(264, 153)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(112, 58)
@@ -179,10 +179,10 @@ Partial Class Form1
         '
         Me.Button4.BackColor = System.Drawing.Color.Silver
         Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(858, 180)
+        Me.Button4.Location = New System.Drawing.Point(868, 341)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(94, 55)
+        Me.Button4.Size = New System.Drawing.Size(94, 70)
         Me.Button4.TabIndex = 13
         Me.Button4.Text = "Silver"
         Me.Button4.UseVisualStyleBackColor = False
@@ -191,7 +191,7 @@ Partial Class Form1
         '
         Me.Button5.BackColor = System.Drawing.Color.Yellow
         Me.Button5.Font = New System.Drawing.Font("Monotype Corsiva", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(849, 347)
+        Me.Button5.Location = New System.Drawing.Point(849, 143)
         Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(113, 58)
@@ -222,19 +222,19 @@ Partial Class Form1
         Me.Label6.TabIndex = 16
         Me.Label6.Text = "Total:"
         '
-        'Total
+        'TotalLab
         '
-        Me.Total.Location = New System.Drawing.Point(455, 523)
-        Me.Total.Name = "Total"
-        Me.Total.Size = New System.Drawing.Size(100, 28)
-        Me.Total.TabIndex = 17
+        Me.TotalLab.Location = New System.Drawing.Point(455, 523)
+        Me.TotalLab.Name = "TotalLab"
+        Me.TotalLab.Size = New System.Drawing.Size(100, 28)
+        Me.TotalLab.TabIndex = 17
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 21.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1000, 591)
-        Me.Controls.Add(Me.Total)
+        Me.Controls.Add(Me.TotalLab)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
@@ -277,5 +277,5 @@ Partial Class Form1
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Label6 As Label
-    Friend WithEvents Total As TextBox
+    Friend WithEvents TotalLab As TextBox
 End Class
