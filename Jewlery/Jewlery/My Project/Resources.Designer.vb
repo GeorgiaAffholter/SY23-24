@@ -99,69 +99,83 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-
         Friend ReadOnly Property earrings_gold() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("earrings gold", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-        Friend ReadOnly Property goldring() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("goldring", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
-            End Get
-        End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property goldhoop() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("goldhoop", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property goldring() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("goldring", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property goldring1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("goldring1", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property hoopsilver() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("hoopsilver", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property hring() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("hring", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
-
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property hring2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("hring2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property silverearrings() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("silverearrings", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
-            End Get
-        End Property
-
-        Friend ReadOnly Property hring2() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("hring2", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -182,7 +196,7 @@ Namespace My.Resources
         Friend ReadOnly Property silverring1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("silverring1", resourceCulture)
-                Return CType(obj, System.Drawing.Bitmap)
+                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
     End Module

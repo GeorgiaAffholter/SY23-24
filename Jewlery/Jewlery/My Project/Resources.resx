@@ -118,17 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hring2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hring2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cross silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross silver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CowBoy Necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CowBoy Necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="goldring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\goldring1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cross necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cowboy silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cowboy silver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,13 +130,34 @@
   <data name="silverring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\silverring1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="silverearrings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silverearrings1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earrings gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earrings gold1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goldring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goldring1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="goldring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\goldring.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cross necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CowBoy Necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CowBoy Necklace.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross silver.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hring2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hring2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hring.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hoopsilver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hoopsilver1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goldhoop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goldhoop1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
