@@ -30,11 +30,13 @@ Partial Class Form3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.TotalL = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,7 +65,7 @@ Partial Class Form3
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.silverring1
+        Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.silverring
         Me.PictureBox2.Location = New System.Drawing.Point(151, 241)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(139, 117)
@@ -73,7 +75,7 @@ Partial Class Form3
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Jewlery.My.Resources.Resources.goldring1
+        Me.PictureBox1.Image = Global.Jewlery.My.Resources.Resources.goldring
         Me.PictureBox1.Location = New System.Drawing.Point(151, 90)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(153, 125)
@@ -117,56 +119,85 @@ Partial Class Form3
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "20$"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(310, 119)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 8
-        Me.TextBox1.Text = "Gold band "
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(310, 275)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 9
-        Me.TextBox2.Text = "Silver band"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(665, 110)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 10
-        Me.TextBox3.Text = "Gold diamond "
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(668, 275)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox4.TabIndex = 11
-        Me.TextBox4.Text = "Silver band "
-        '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(359, 24)
+        Me.TextBox5.BackColor = System.Drawing.Color.LightBlue
+        Me.TextBox5.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.Location = New System.Drawing.Point(359, 12)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(83, 49)
         Me.TextBox5.TabIndex = 12
         Me.TextBox5.Text = "Rings"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Mongolian Baiti", 22.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(241, 385)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(95, 40)
+        Me.Label5.TabIndex = 14
+        Me.Label5.Text = "Total"
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(359, 126)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 54)
+        Me.Button1.TabIndex = 15
+        Me.Button1.Text = "Gold 1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(328, 271)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(114, 55)
+        Me.Button2.TabIndex = 16
+        Me.Button2.Text = "SIlver 1"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(665, 125)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(110, 55)
+        Me.Button3.TabIndex = 17
+        Me.Button3.Text = "Gold 2"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(634, 271)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(123, 55)
+        Me.Button4.TabIndex = 18
+        Me.Button4.Text = "Silver 2"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'TotalL
+        '
+        Me.TotalL.Location = New System.Drawing.Point(342, 401)
+        Me.TotalL.Name = "TotalL"
+        Me.TotalL.Size = New System.Drawing.Size(100, 22)
+        Me.TotalL.TabIndex = 19
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.TotalL)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -194,9 +225,11 @@ Partial Class Form3
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents TotalL As TextBox
 End Class
