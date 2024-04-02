@@ -141,7 +141,7 @@ Partial Class Form3
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(171, 138)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 54)
@@ -151,7 +151,7 @@ Partial Class Form3
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(180, 271)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(114, 55)
@@ -161,7 +161,7 @@ Partial Class Form3
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(502, 128)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(110, 55)
@@ -171,7 +171,7 @@ Partial Class Form3
         '
         'Button4
         '
-        Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 18.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(511, 261)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(123, 55)
