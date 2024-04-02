@@ -46,7 +46,7 @@ Partial Class Form3
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.hring
-        Me.PictureBox4.Location = New System.Drawing.Point(479, 241)
+        Me.PictureBox4.Location = New System.Drawing.Point(342, 221)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(133, 105)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -56,7 +56,7 @@ Partial Class Form3
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.Jewlery.My.Resources.Resources.hring2
-        Me.PictureBox3.Location = New System.Drawing.Point(479, 90)
+        Me.PictureBox3.Location = New System.Drawing.Point(342, 90)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(133, 113)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -66,7 +66,7 @@ Partial Class Form3
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Jewlery.My.Resources.Resources.silverring
-        Me.PictureBox2.Location = New System.Drawing.Point(151, 241)
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 241)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(139, 117)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -76,7 +76,7 @@ Partial Class Form3
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Jewlery.My.Resources.Resources.goldring
-        Me.PictureBox1.Location = New System.Drawing.Point(151, 90)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 78)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(153, 125)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -86,7 +86,7 @@ Partial Class Form3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(356, 90)
+        Me.Label1.Location = New System.Drawing.Point(177, 90)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(28, 16)
         Me.Label1.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class Form3
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(356, 241)
+        Me.Label2.Location = New System.Drawing.Point(198, 241)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(28, 16)
         Me.Label2.TabIndex = 5
@@ -104,7 +104,7 @@ Partial Class Form3
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(662, 90)
+        Me.Label3.Location = New System.Drawing.Point(508, 90)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(28, 16)
         Me.Label3.TabIndex = 6
@@ -113,7 +113,7 @@ Partial Class Form3
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(665, 241)
+        Me.Label4.Location = New System.Drawing.Point(508, 241)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(28, 16)
         Me.Label4.TabIndex = 7
@@ -142,7 +142,7 @@ Partial Class Form3
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(359, 126)
+        Me.Button1.Location = New System.Drawing.Point(171, 138)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 54)
         Me.Button1.TabIndex = 15
@@ -152,7 +152,7 @@ Partial Class Form3
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(328, 271)
+        Me.Button2.Location = New System.Drawing.Point(180, 271)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(114, 55)
         Me.Button2.TabIndex = 16
@@ -162,7 +162,7 @@ Partial Class Form3
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(665, 125)
+        Me.Button3.Location = New System.Drawing.Point(502, 128)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(110, 55)
         Me.Button3.TabIndex = 17
@@ -172,7 +172,7 @@ Partial Class Form3
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Monotype Corsiva", 22.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(634, 271)
+        Me.Button4.Location = New System.Drawing.Point(511, 261)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(123, 55)
         Me.Button4.TabIndex = 18
