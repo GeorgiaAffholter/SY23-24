@@ -8,12 +8,8 @@ Public Class Form2
     ' amount = amount + 18
     'TotalLabel.Text = amount.ToString("C2")
 
-
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
+    '
+    '
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         amount = amount + 18
         TotalLabel.Text = amount.ToString("C2")

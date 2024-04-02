@@ -146,7 +146,7 @@ Partial Class Form2
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.earrings_gold
+        '        Me.PictureBox4.Image = Global.Jewlery.My.Resources.Resources.earrings_gold
         Me.PictureBox4.Location = New System.Drawing.Point(12, 311)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(156, 169)
